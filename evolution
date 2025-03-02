@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task Input Form</title>
+    <style>
+      #abc{
+        
+        border:5px solid black;
+        padding: 20px;
+        background-color: yellow;
+        color: blue;
+      }
+      @media(min-width:1228px){
+        #abc{
+          display:flex;
+          border:20px solid black;
+        padding: 100px;
+        background-color: pink;
+        color: blue;
+        }
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>Task Input Form</h1>
+      <form id="abc">
+        <label >Task Name:</label>
+        <input>
+        <br><br>
+        <label>Description:</label>
+        <input >
+        <br><br>
+        <label>Due Date:</label>
+        <input>
+        <br><br>
+        <label>Categori:</label>
+        <select>
+          <option>Select</option>
+          <option>Work</option>
+          <option>Personal</option>
+          <option>Shoping</option>
+        </select>
+        <br><br>
+        <label>Completion Status:</label>
+        <select>
+          <option>Pending</option>
+          <option>Completed</option>
+        </select>
+        <br><br>
+        
+      </form>
+      
+      <br><br>
+      <button id="bb">Submit</button>
+      <script>
+        
+        const button=document.getElementById('bb');
+        button.addEventListener('click',()=>{
+          alert('Submission Comleted!')
+          a.push(form)
+        })
+        
+      </script>
+  </body>
+</html>
